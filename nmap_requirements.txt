@@ -1,0 +1,66 @@
+============================================================
+                 NMAP AUTOMATION TOOL - REQUIREMENTS
+============================================================
+
+1. PURPOSE
+Python tool that automates common Nmap scans and generates
+text and HTML reports without requiring advanced command-line
+usage.
+
+------------------------------------------------------------
+
+2. PROJECT STRUCTURE
+- main.py       : Menu and user input handling
+- nmap.py    	: Scan execution logic
+- reports/      : Auto-created output folder for reports
+
+------------------------------------------------------------
+
+3. FUNCTIONAL REQUIREMENTS
+- Accept target IP/domain and company name
+- Default or custom port selection
+- Supported scans:
+    • Service Detection (-sV)
+    • Aggressive Scan (-A)
+    • OS Detection (-O)
+    • Optional custom port range
+- Execute scans using subprocess
+- Save TXT and HTML reports with timestamps
+
+------------------------------------------------------------
+
+4. REPORT FEATURES
+- All reports stored in the /reports folder
+- Reports include:
+    • Company name
+    • Target
+    • Timestamp
+    • Ports scanned
+- HTML report includes headings and readable formatting
+
+------------------------------------------------------------
+
+5. USABILITY & MAINTAINABILITY
+- Beginner-friendly prompts
+- Modular, well-commented code
+- Cross-platform support:
+    • Windows
+    • macOS
+    • Linux
+- Requires Nmap installation
+
+------------------------------------------------------------
+
+6. ERROR HANDLING
+- Detect missing Nmap installation
+- Handle invalid port inputs
+- Handle subprocess errors gracefully
+- Continue execution even if a scan fails
+
+------------------------------------------------------------
+
+7. LEGAL & ETHICAL USE
+This tool must only be used to scan systems you own or have
+explicit permission to test.
+
+============================================================
