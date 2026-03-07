@@ -1,0 +1,31 @@
+Nmap Automation Menu
+1. Run Nmap scan
+2. Quit
+
+Enter your choice (1 or 2): 1
+
+Welcome to the Automated Nmap Scanner
+
+Enter the target IP or domain: scanme.nmap.org
+Enter the company name for the report: nmap
+
+Port options:
+1. Scan all default ports.
+2. Enter a custom port or port range (for example: 80 or 1-1000 or 80,443)
+Enter your choice (1 or 2): 1
+Using default ports.
+Running Service/Version Scan (-sV)...
+Running Aggressive Scan (-A)...
+Running OS Detection Scan (-O)...
+
+Scan complete!
+Text report saved as: reports\nmap_nmap_report_2026-01-05_20-04.txt
+HTML report saved as: reports\nmap_nmap_report_2026-01-05_20-04.html
+
+
+Nmap Automation Menu
+1. Run Nmap scan
+2. Quit
+
+Enter your choice (1 or 2): 2
+Thank you for using the Nmap automation program!
